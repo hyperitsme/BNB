@@ -15,8 +15,8 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const BOT_TOKEN = process.env.BOT_TOKEN || 'REPLACE_TELEGRAM_BOT_TOKEN';
-const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8410081893:AAHyOorGwPUQ-ime_NXT_5Ef-2kL410LMZI';
+const FRONTEND_URL = process.env.FRONTEND_URL || 'https://angy-frog.site/index.html';
 
 function checkTelegramAuth(data) {
   const { hash, ...fields } = data;
